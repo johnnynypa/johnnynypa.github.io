@@ -1,0 +1,6 @@
+@mixin backgroundImage($img:file, $type:png, $repeat:no-repeat, $x:0px, $y:0px, $w:100px, $h:100px) {
+    background-image: url(../assets/#{$img}.#{$type});
+    background-repeat: #{$repeat};
+    background-position: #{$x} #{$y};
+    background-size: #{$w} #{$h};
+}

@@ -1,0 +1,47 @@
+@import '_mixins';
+
+#main-section,  #main-section-back, .main-section-container, .about-section, .parts-sections{
+    height: 100vh;
+    width: 100vw;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.background-section{
+    z-index: -10;
+    position: absolute;
+}
+
+.content-section{
+    position: relative;
+    z-index: 10;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+@import '_main', '_about', '_parts';

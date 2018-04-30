@@ -1,0 +1,63 @@
+.parts-sections{
+    position: relative;
+}
+
+.part-back{
+    position: absolute;
+}
+
+.part-svg1{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+
+.part-svg3{
+    margin-left: 80vw;
+    margin-top: -100px;
+}
+
+.part{
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3{
+        font-family: Fira Sans;
+        font-weight: 300;
+        position: absolute;
+        margin-top: -15vh;
+        font-size: 1.45rem;
+    }
+    p{
+        font-family: Raleway;
+        font-weight: 300;
+        font-size: 1.35rem;
+        width: 70%;
+        text-align: center;
+    }
+}
+
+.part-dev{
+    background-color: #2D3F51;
+    h3{
+        position: absolute;
+        left: 5vw;
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
+
+.part-design{
+    h3{
+        left: 85vw;
+        color: #333333;
+    }
+    p{
+        color: #4F4F4F;
+    }
+}
