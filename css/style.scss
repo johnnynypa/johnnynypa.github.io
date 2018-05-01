@@ -1,6 +1,14 @@
 @import '_mixins';
 
-#main-section,  #main-section-back, .main-section-container, .about-section, .parts-sections{
+$blueDark : #2D3F51;
+$greyColor: #4F4F4F;
+
+#main-section,
+#main-section-back,
+.main-section-container,
+.about-section,
+.parts-sections,
+section.skills{
     height: 100vh;
     width: 100vw;
 }
@@ -44,4 +52,4 @@ body{
     background: #555; 
 }
 
-@import '_main', '_about', '_parts';
+@import '_main', '_about', '_parts', '_skills', '_progress';

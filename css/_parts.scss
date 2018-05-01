@@ -41,7 +41,7 @@
 }
 
 .part-dev{
-    background-color: #2D3F51;
+    background-color: $blueDark;
     h3{
         position: absolute;
         left: 5vw;
@@ -53,11 +53,12 @@
 }
 
 .part-design{
+    box-shadow: .25px .25px .75px #dadada;
     h3{
         left: 85vw;
-        color: #333333;
+        color: $greyColor;
     }
     p{
-        color: #4F4F4F;
+        color: $greyColor;
     }
 }

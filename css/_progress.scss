@@ -1,0 +1,78 @@
+$progressBarColour: #333;
+$progressValueColour: #f0f0f0;
+
+
+.Progress-label {
+	font-size: 1em;
+    font-family: Raleway;
+    display: block;
+}
+.Progress-label-dev{
+    color: white;
+}
+.Progress-label-design{
+    color: $greyColor;
+}
+.Progress-main {
+    background-color: red;
+	display: block;
+    width: 100%;
+    height: 0.3em;
+    margin-top: 0.75em;
+}
+.Progress-main::-moz-progress-bar { 
+    background: $progressValueColour;
+}
+.Progress-main::-webkit-progress-bar {
+    background: $progressBarColour;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
+.Progress-main::-webkit-progress-value {
+    background: $progressValueColour;
+}
+.Progress-main::-ms-fill { 
+    background: $progressValueColour;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
+.Progress-bar {
+    margin-top: 0.95em;
+    background-color: $progressBarColour;
+    height: 0.3em;
+}
+.Progress-value {
+    background-color: $progressValueColour;
+    display: block;
+    height: 0.3em;
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted rgba(245,245,245, .2); /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 9px 5px;
+    border-radius: 6px;
+    top: -5px;
+    left: 110%;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

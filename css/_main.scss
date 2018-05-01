@@ -1,5 +1,6 @@
 #main-section{
     @include backgroundImage('fondo', 'png', 'no-repeat', 0, -55px, auto, '');
+    box-shadow: 2px 2px 5px #999;
 }
 
 .main-section-container{
