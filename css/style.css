@@ -307,7 +307,7 @@ section.skills {
 }
 
 .Progress-main::-moz-progress-bar {
-  background: #f0f0f0;
+  background: #cfcfcf;
 }
 
 .Progress-main::-webkit-progress-bar {
@@ -317,11 +317,11 @@ section.skills {
 }
 
 .Progress-main::-webkit-progress-value {
-  background: #f0f0f0;
+  background: #cfcfcf;
 }
 
 .Progress-main::-ms-fill {
-  background: #f0f0f0;
+  background: #cfcfcf;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
 }
 
@@ -332,7 +332,7 @@ section.skills {
 }
 
 .Progress-value {
-  background-color: #f0f0f0;
+  background-color: #cfcfcf;
   display: block;
   height: 0.3em;
 }
